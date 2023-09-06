@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <input type="text" value="0" id="display" disabled></input>
+    <div id="buttons">
+      <button type="button" value="all-clear" id="ac" class="btn">AC</button>
+      <button type="button" value="del" id="del" class="btn">DEL</button>
+      <button data-key="191" type="button" value="/" class="btn operator">&divide;</button>
+      <button data-key="103" type="button" value="7" id="seven" class="btn operand">7</button>
+      <button data-key="104" type="button" value="8" id="eight" class="btn operand">8</button>
+      <button data-key="105" type="button" value="9" id="nine" class="btn operand">9</button>
+      <button data-key="106" type="button" value="*" class="btn operator">&times;</button>
+      <button data-key="100" type="button" value="4" id="four" class="btn operand">4</button>
+      <button data-key="101" type="button" value="5" id="five" class="btn operand">5</button>
+      <button data-key="102" type="button" value="6" id="six" class="btn operand">6</button>
+      <button data-key="109" type="button" value="-" class="btn operator">&minus;</button>
+      <button data-key="97" type="button" value="1" id="one" class="btn operand">1</button>
+      <button data-key="98" type="button" value="2" id="two" class="btn operand">2</button>
+      <button data-key="99" type="button" value="3" id="three" class="btn operand">3</button>
+      <button data-key="107" type="button" value="+" class="btn operator">&plus;</button>
+      <button data-key="96" type="button" value="0" id="zero" class="btn operand">0</button>
+      <button data-key="110" type="button" value="." id="decimal" class="btn">&period;</button>
+      <button data-key="13" type="button" value="=" id="equals" class="btn">&equals;</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
