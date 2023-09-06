@@ -1,0 +1,107 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  border: solid 10px;
+  height: 450px; 
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: black;
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  height: 350px;
+}
+
+
+#display {
+  color: black;
+  display: flex;
+  font-size: 60px;
+  height: 100px;
+  margin: 0;
+  padding: 5px;
+  background-color: #3d756b;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-end;
+  border: 3px solid;
+  font-family: monospace;
+  text-align: end;
+}
+
+.btn {
+  flex: 1 1 25%;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 600;
+  border: 3px solid;
+  background-color: #1c3632;
+  border-radius: 0.3em;
+}
+
+.btn:active, #ac:active, #equals:active, #percent:active, #del:active {
+  flex: 1 1 25%;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 600;
+  border: 3px solid;
+  border-radius: 0.5em;
+  background-color: #294f49;
+}
+
+.operator {
+  background-color: #54a8a8;
+}
+
+#ac {
+  background-color: #e14f15;
+  flex: 1 1 37.5%;
+}
+
+#ac:active {
+  flex: 1 1 37.5%;
+}
+
+#del {
+  flex: 1 1 37.5%;
+}
+
+#del:active {
+  flex: 1 1 37.5%;
+}
+
+#percent, #del {
+  background-color: #366e6e;
+}
+
+#equals {
+  background-color: firebrick;
+  flex: 1 1 37.5%;
+}
+
+#equals:active {
+  flex: 1 1 37.5%;
+}
+
+#zero {
+  flex: 1 1 37.5%;
+}
